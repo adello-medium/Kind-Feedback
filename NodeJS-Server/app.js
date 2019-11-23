@@ -6,7 +6,7 @@ const path = require('path')
 //setup
 let app = express();
 app.set('view engine', 'ejs');
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 var counter = 0;
 
 
@@ -21,6 +21,10 @@ console.log("Server started. Listening on 8080");
 
 
 
+app.get('/', function(req, res) {
+  res.render("questionaire");
+  res.end();
+});
 
 //home page
 app.get('/', function(req, res) {
