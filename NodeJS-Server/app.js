@@ -27,6 +27,10 @@ console.log("Server started. Listening on 8080");
 app.post('/submission', function(req, res) {
   res.render("submitted");
   console.log(req.body);
+  let jsObject = {};
+  jsObject.type = 1;
+  jsObject.id = req.body.id;
+  fs.writeFileSync("../userType.json", JSON.stringify(jsObject));
   res.end();
 });
 
