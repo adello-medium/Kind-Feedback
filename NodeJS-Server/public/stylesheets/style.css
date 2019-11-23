@@ -1,5 +1,12 @@
 h1{
     background-color: green;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    padding: 50px ;
+}
+p{
+    text-align: center;
 }
 .round{
     width: 80%;
@@ -14,4 +21,13 @@ h1{
 }
 form{
     margin: 0px auto;
+}
+#sub{
+    height: 80%;
+    text-align: center;
+}
+span{
+    text-align: center;
+    margin: auto auto;
+    font-size: 60px;
 }

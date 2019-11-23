@@ -25,7 +25,7 @@ console.log("Server started. Listening on 8080");
 
 
 app.post('/submission', function(req, res) {
-  res.render("questionaire");
+  res.render("submitted");
   console.log(req.body);
   res.end();
 });
