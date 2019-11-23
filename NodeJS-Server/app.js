@@ -30,7 +30,7 @@ app.post('/submission', function(req, res) {
   let jsObject = {};
   jsObject.type = 1;
   jsObject.id = req.body.id;
-  fs.writeFileSync("../userType.json", JSON.stringify(jsObject));
+  fs.writeFileSync("../userDetails.json", JSON.stringify(jsObject));
   res.end();
 });
 
