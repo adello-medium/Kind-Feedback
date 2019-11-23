@@ -2,11 +2,14 @@ const http = require('http');
 const fs = require('fs');
 const express = require('express');
 const path = require('path')
+const bodyParser = require('body-parser');
 
 //setup
 let app = express();
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 var counter = 0;
 
 
@@ -21,8 +24,9 @@ console.log("Server started. Listening on 8080");
 
 
 
-app.get('/', function(req, res) {
+app.post('/submission', function(req, res) {
   res.render("questionaire");
+  console.log(req.body);
   res.end();
 });
 
