@@ -1,9 +1,10 @@
 <html>
 <head>
     <link type="text/css" rel="stylesheet" href="stylesheets/style.css" >
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>Kind Feedback</h1>
+<h1>Kind Feedback Questionaire</h1>
 <div>
     <p>
         To get started please fill out the questionaire below and submit it when you are finished.
@@ -11,21 +12,39 @@
 </div>
     <div class="round">
         <form action="/submission/" method="post">
-            <h3>Test</h3>
-            <div>What is your favorite primary color?<br>
-                <input type="radio" name="fav_color" value="Red">Red<br>
-                <input type="radio" name="fav_color" value="Blue" checked>Blue<br>
-                <input type="radio" name="fav_color" value="Yellow">Yellow
+            <div><span>Do you take any task as long as it is explained clearly?</span><br>
+                <input type="radio" name="question1" value="Red">Strongly Disagree
+                <input type="radio" name="question1" value="Blue" checked>Disagree
+                <input type="radio" name="question1" value="Yellow">Agree
+                <input type="radio" name="question1" value="Yellow">Strongly agree
             </div>
-            <div>What is your favorite primary color?<br>
-                <input type="radio" name="v" value="Red">Red<br>
-                <input type="radio" name="v" value="Blue" checked>Blue<br>
-                <input type="radio" name="v" value="Yellow">Yellow
+            <div><span>Do you prefer public appreciation for your finished work?</span><br>
+                <input type="radio" name="question2" value="Red">Strongly Disagree
+                <input type="radio" name="question2" value="Blue" checked>Disagree
+                <input type="radio" name="question2" value="Yellow">Agree
+                <input type="radio" name="question2" value="Yellow">Strongly agree
             </div>
-            <div>
-                <input type="text" name="id">
+            <div><span>Does it make you feel uncomfortable if you cannot finnish your tasks in time?</span><br>
+                <input type="radio" name="question3" value="Red">Strongly Disagree
+                <input type="radio" name="question3" value="Blue" checked>Disagree
+                <input type="radio" name="question3" value="Yellow">Agree
+                <input type="radio" name="question3" value="Yellow">Strongly agree
             </div>
-            <input type="submit" value="OK">
+            <div><span>Do you loose the view for the goal during longer tasks?</span><br>
+                <input type="radio" name="question4" value="Red">Strongly Disagree
+                <input type="radio" name="question4" value="Blue" checked>Disagree
+                <input type="radio" name="question4" value="Yellow">Agree
+                <input type="radio" name="question4" value="Yellow">Strongly agree
+            </div>
+            <div><span>Do you enjoy pushing into unknown territory with the high possibility of failure?</span><br>
+                <input type="radio" name="question5" value="Red">Strongly Disagree
+                <input type="radio" name="question5" value="Blue" checked>Disagree
+                <input type="radio" name="question5" value="Yellow">Agree
+                <input type="radio" name="question5" value="Yellow">Strongly agree
+            </div>
+                <div>Please add your Github-ID:</div>
+                <input type="text" name="id" class="no"><br>
+            <input type="submit" value="Submit" class="no" id="submitButton"  style="margin-top: 25px">
         </form>
     </div>
 </body>
