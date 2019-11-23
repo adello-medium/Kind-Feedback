@@ -1,14 +1,17 @@
+Typ 1
 Ergebnisorientierter Typ
 -klar strukturierter aufgaben
 -will aufgaben, egal ob coole oder langweilige, korrekt erledigen
 -schaetzt Anerkennung und Belohnung fuer eigene Leistung
 
+Typ 2
 Entwicklungsorientierter Typ
 -braucht SInn und Zusammenhang
 -nicht durch Belohnungen, Praemien zu motivieren (eher sogar hinderlich)
 -will sich entwickeln und hat Motivation von der Idee ausgehend
 -braucht Abwechslung
 
+Typ 3
 Wirkungsorientierter Typ
 -herausfordernd
 -keine Angst vor Risiko
@@ -16,6 +19,7 @@ Wirkungsorientierter Typ
 -yuspruch, sichtbare Belohnung (e.g. staus symbols, anerkennung)
 
 
+Typ 4
 Integrativer Typ
 -braucht gutes soziales umfeld
 -will geschaetzt werden und will moeglichst viel Kommunikation
@@ -24,6 +28,7 @@ Integrativer Typ
 -von sich aus vielleicht eher auch etwas zurueckhaltends7
 
 
+Typ 5
 -Introjizierter Typ
 -Arbeitet weil er sich sonst schlecht fuehlt
 
