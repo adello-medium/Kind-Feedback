@@ -36,6 +36,9 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+# PyCharm
+.idea/
+
 # BUCK
 buck-out/
 \.buckd/
